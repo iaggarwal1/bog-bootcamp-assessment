@@ -1,3 +1,26 @@
 /* Your Styles Here */
-body{
+body {
+    background-color: linen;
+    font-family: Noto Sans, sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#card {
+    margin: 5% 15% 5% 15%;
+    background-color: floralwhite;
+    padding: 5%;
+    font-size: 20px;    
+    line-height: 140%;
+    border-style: outset;
+    border-radius: 20px;
+    box-shadow: 15px 15px snow;
+}
+
+#card:hover {
+    background-color: ivory;
+    box-shadow: 15px 15px mintcream;
 }
